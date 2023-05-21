@@ -1,2 +1,2 @@
 # demo
-playing around with git and github
+playing around with git and github!
