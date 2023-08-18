@@ -1,5 +1,8 @@
-function smelly(name, stink) {
-    name = "Smell";
+function smelly(name) {
+    alert(prompt("What is your name"))
 
-    stink = "420"
+}
+
+function calculate(num, num2) {
+    return num + num2;
 }
