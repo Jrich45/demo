@@ -11,13 +11,14 @@ function multiply(num, num2) {
 } */
 
 
-function smell(name) {
+function smell() {
 
-    prompt("What is your name")
+    let name = prompt("What is your name")
     if ((name === "Mason") || (name === "mason")) {
-        return ("Very very smelly");
+        
 
     }
+    return ("Very very smelly");
 }
 
 smell()
