@@ -22,22 +22,24 @@
     <form>
         <ul>
           <li>
-            <label for="food">Pick your favorite food:</label>
-            <select id="food" name="food">
-                <optgroup label="Mains">
-                    <option>Salad</option>
-                    <option>Curry</option>
-                    <option>Pizza</option>
-                    <option>Fajitas</option>
-                </optgroup>
-                <optgroup label="Snacks">
-                    <option>Biscuits</option>
-                    <option>Crisps</option>
-                    <option>Fruit</option>
-                    <option>Breadsticks</option>
-                </optgroup>
-            </select>
+            <label for="food">Enter your favorite food:</label>
+            <input id="food" type="text" name="food" list="myFood" />
+            <datalist id="myFood">
+                <option>Salad</option>
+                <option>Curry</option>
+                <option>Pizza</option>
+                <option>Fajitas</option>
+                <option>Biscuits</option>
+                <option>Crisps</option>
+                <option>Fruit</option>
+                <option>Breadsticks</option>
+            </datalist>
       
+      
+                Salad
+                Curry
+                Pizza
+                Fajitas
                 Biscuits
                 Crisps
                 Fruit
