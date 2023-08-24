@@ -22,17 +22,33 @@
     <form>
         <ul>
           <li>
-            <label for="max-invite">Select maximum number of invitations</label>
-            <input type="range" min="1" max="30" value="10" id="max-invite">
-            <output  class="invite-output" for="max-invite"></output>
-            
+            <label for="food">Pick your favorite food:</label>
+            <select id="food" name="food">
+                <optgroup label="Mains">
+                    <option>Salad</option>
+                    <option>Curry</option>
+                    <option>Pizza</option>
+                    <option>Fajitas</option>
+                </optgroup>
+                <optgroup label="Snacks">
+                    <option>Biscuits</option>
+                    <option>Crisps</option>
+                    <option>Fruit</option>
+                    <option>Breadsticks</option>
+                </optgroup>
+            </select>
+      
+                Biscuits
+                Crisps
+                Fruit
+                Breadsticks
+      
           </li>
           <li>
-            <button type="submit">Submit</button>
+            <button>Submit choice</button>
           </li>
         </ul>
       </form>
-      <script src="script.js"></script>
   </body>
 
 </html>
