@@ -37,9 +37,9 @@ let greeting = document.querySelector('.hello')
 let name = prompt("What is your name?");
 
 if ((name === 'Mason' || (name = 'mason'))) {
-    greeting.innerHTML = "very very smelly"
-}
+    greeting.textContent = "very very smelly"
+} else {
+        greeting.textContent = "FATHER, FATHER, FATHER, FATHER, FATHER"
+    } 
 
-/* if ((name ==='gary' || (name = 'Gary'))) {
-    greeting.innerHTML = "FATHER, FATHER, FATHER, FATHER, FATHER"
-} */
+}
