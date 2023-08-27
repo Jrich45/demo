@@ -36,10 +36,14 @@ let greeting = document.querySelector('.hello')
 
 let name = prompt("What is your name?");
 
-if ((name === 'Mason' || (name = 'mason'))) {
+if ((name === 'Mason' || (name === 'mason'))) {
     greeting.textContent = "very very smelly"
 } else {
+    if((name ==='Gary' || (name === 'gary'))) {
         greeting.textContent = "FATHER, FATHER, FATHER, FATHER, FATHER"
-    } 
-
+    }else {
+        if((name === 'Jon' || (name === 'jon'))) {
+            greeting.textContent = "You are the greatest!"
+        }
+} 
 }
