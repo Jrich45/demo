@@ -32,7 +32,7 @@ invite.addEventListener("input", () => {
     output.textContent = invite.value;
 }); */
 
-let greeting = document.querySelector('.hello')
+/* let greeting = document.querySelector('.hello')
 
 let name = prompt("What is your name?");
 
@@ -46,4 +46,4 @@ if ((name === 'Mason' || (name === 'mason'))) {
             greeting.textContent = "You are the greatest!"
         }
 } 
-}
+} */

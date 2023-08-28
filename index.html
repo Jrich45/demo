@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,4 +10,35 @@
 
     <script src="script.js"></script>
 </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Favorite fruit start</title>
+    <style>
+      input:invalid {
+        border: 2px dashed red;
+      }
+
+      input:valid {
+        border: 2px solid black;
+      }
+
+      input:invalid:required {
+        background-image: linear-gradient(to right, pink, lightgreen);
+      }
+    </style>
+  </head>
+
+<body>
+    <form>
+      <label for="choose">Would you prefer a banana, cherry, kiwi, blueberry or strawberry? (Required)</label>
+      <input id="choose" name="i_like" required pattern="[Bb]anana|[Cc]herry|[Kk]iwi|[Bb]lueberry|[Ss]trawberry">
+      <button>Submit</button>
+    </form>
+</body>
+
 </html>
